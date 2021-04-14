@@ -1,3 +1,1 @@
-console.log('Wassaaaaaaaaaaaaaaaaaaaa');
-
-alert ("hello hello");
+import * as main from "../dist/main.js";

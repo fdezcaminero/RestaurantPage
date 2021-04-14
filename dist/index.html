@@ -4,17 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href='tabsy.css' rel='stylesheet' type='text/css'>
+  <title>Dominican Power</title>
 </head>
 <body>
 
-  <h1>Plantain Power: Insane Dominican Cuisine</h1>
-
-  <img src="../resources/superplantain.png" alt="Plantain Image" width="200" height="200">
-
-  <p>Unlike bananas, you have to cook plantains after you peel them. But if that is acheived successfully, you will enter the crazy world of Dominican Food.</p>
-
-  <div id="content"></div>
+    <div class="tabsy">
+      <input type="radio" id="tab1" name="tab" checked>
+      <label class="tabButton" for="tab1">Tab One</label>
+      <div class="tab">
+        <div class="content">
+          Content One
+        </div>
+      </div>
+      <input type="radio" id="tab2" name="tab" checked>
+      <label class="tabButton" for="tab2">Tab Two</label>
+      <div class="tab">
+        <div class="content">
+          Content Two
+        </div>
+      </div>
+      <input type="radio" id="tab3" name="tab" checked>
+      <label class="tabButton" for="tab3">Tab Three</label>
+      <div class="tab">
+        <div class="content">
+          Content Three
+        </div>
+      </div>
+  </div>
+  <nav>
+    <ul>
+      <li>Menu</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <div id="content">
+    <h1 id="pageTitle"></h1>
+    <p id="pageParagraph"></p>
+  </div>
   
   <script src="main.js"></script>
 </body>
